@@ -1,0 +1,31 @@
+/*Inciso 1: El color de fondo de las celdas 
+de titulos es el mismo*/
+th{
+    background-color: rgb(127, 200, 151);
+}
+
+
+/*Inciso 2: El color de fondo del primer renglon
+de los elementos de datos es el mismo*/
+tbody tr:first-child td{
+    background-color: rgb(183, 192, 186);
+}
+
+/*Inciso 3: El color de fondo de las celdas del
+ultimoi renglon son el mismo*/
+tbody tr:last-child td{
+    background-color: rgb(73, 110, 85);
+}
+
+/*Inciso 4: El color de fondo de las celdas de
+la primer columna son el mismo*/
+.generoH, .genero{
+    background-color: rgb(101, 200, 134);
+}
+
+/*Inciso 5: El color de fondo de las celdas de 
+la ultima columna son el mismo*/
+.reconocimientoH, .reconocimiento{
+    background-color: rgb(65, 173, 101);
+}
+

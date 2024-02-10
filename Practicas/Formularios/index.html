@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejemplos de Formularios</title>
+</head>
+<body>
+    <!-- Nombre-->
+    <h1>Ejemplos de Formularios</h1>
+    <label for="Nombre">Nombre del usuario: </label>
+    <input type="text" id="Nombre" name="Nombre"
+    size="50" maxlength="50" placeholder="Nombre" required><br>
+
+    <!-- Apellidos-->
+    <label for="apelidoPaterno"> Ingresa tus apellidos </label>
+    <input type="text" id="apelidoPaterno" placeholder="Elvis Tek" maxlength="60" size="60"><br>
+
+    <!-- contraseña -->
+    <label for="clave">Introduce tu clave</label>
+    <input type="password" id="clave" name="clave"><br>
+
+    <!--Fecha de nacimiento -->
+    <label for="FechaNacimiento">Fecha de Nacimiento</label>
+    <input type="date" id="FechaNacimiento" 
+    name="FechaNacimiento" value="2021-11-16"
+    min="2000-01-01" max="2022-12-01">
+    
+    <!-- Sexo -->
+    <fieldset>
+        <legend>Sexo</legend>
+            <label for="Hombre">Hombre</label><input id="Hombre" name="sexo" value="Hombre" type="radio">
+            <label for="Mujer">Mujer</label><input id="Mujer" name="sexo" value="Mujer" type="radio">
+            <label for="SinEspecificar">SinEspecificar</label><input id="SinEspecificar" name="sexo" value="SinEspecificar" type="radio">
+    </fieldset>
+    <!-- Correo Electronico-->
+    <p>
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="mail" name="email">
+    </p>
+    <!-- Ocupación -->
+    <fieldset>
+        <legend>Ocupación</legend>
+        <label for="Estudiante">Estudiante</label>
+        <input type="checkbox" id="Estudiante"
+        name="Estudiante" value="Estudiante"><br>
+
+        <label for="Empleado">Empleado</label>
+        <input type="checkbox" id="Empleado"
+        name="Empleado" value="Empleado"><br>
+
+        <label for="Empresario">Empresario</label>
+        <input type="checkbox" id="Empresario"
+        name="Empresario" value="Empresario"><br>
+
+        <label for="Consultor">Consultor</label>
+        <input type="checkbox" id="Consultor"
+        name="Consultor" value="Consultor"><br>
+
+        <label for="Otro">Otro: </label>
+        <input type="text" id="Otro" name="Otro"
+        size="50" maxlength="50" placeholder="Otro" required><br>        
+    </fieldset>
+</body>
+</html>

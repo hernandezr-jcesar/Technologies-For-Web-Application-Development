@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(93, 102, 101);
+}
+h1{
+    background-color:rgb(214, 221, 215);
+    margin: auto;
+    padding: 45px;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    border: 2px solid green;
+    border-radius: 10px;
+}
+div.iframe{
+    position: relative;
+    top: 5px; 
+    left: 200px;
+    border: 2px solid black;
+    width:87%;
+    height: 675px;
+    background-color: rgb(255, 255, 255);
+}
+iframe{
+    width:99.5%;
+    height:671px;
+}
+div.LogoIPN{
+    position:absolute;
+    border: 2px solid black;
+    top: 1%;
+    width: 12%;
+    background-color: rgb(214, 221, 215);
+    text-align: center;
+}
+div.LogoESCOM{
+    position:absolute;
+    border: 2px solid black;
+    top: 1%;
+    right: 1%;
+    width: 12%;
+    background-color: rgb(214, 221, 215);
+    text-align: center;
+}
+div.Información{
+    position:absolute;
+    border: 2px solid black;
+    top:18%;
+    width: 12%;
+    text-align: center;
+    background-color: rgb(214, 221, 215);
+}
+div.Practicas{
+    position:absolute;
+    border: 2px solid black;
+    top:47%;
+    width: 12%;
+    background-color: rgb(214, 221, 215);
+}
+img.Logo{
+    width:90%;
+    height: auto;
+}
+
+
+p.Negrita{
+    font-weight: bold;
+}

@@ -1,0 +1,77 @@
+table.tabla{
+    background-color: rgb(98, 158, 137);
+    text-align: center;
+    margin: auto;   
+    border-radius: 10px;   
+    font-size: medium;     
+}
+.Linea-Vacia{
+    height: 10px !important; /* overwrites any other rules */
+    background-color: rgb(98, 158, 137);
+}
+h1{
+    text-align: center;
+}
+div.divtabla{    
+    margin:0px auto;
+    text-align: center;
+    align-content: center;   
+}
+div.Titulo{
+    background-color: white;
+    padding: 1px;    
+    border-radius: 10px;    
+    margin-left: 30%;
+    margin-right: 30%;
+}
+body{
+    background-color: rgb(162, 167, 165);
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+}
+th{    
+    background-color: rgb(232, 233, 233);      
+    font-size:x-large; 
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+td{
+    font-size:medium;
+    margin: 2px;
+    padding: 2px;
+    border: 1px solid black;
+}
+tr:first-child td:first-child{
+    border-top-left-radius: 10px; 
+}
+tr:first-child td:last-child{
+    border-top-left-radius: 10px; 
+}
+tr:last-child td:first-child { 
+    border-bottom-left-radius: 10px; 
+}
+tr:last-child td:last-child { 
+    border-bottom-right-radius: 10px; 
+}
+th:first-child{
+    border-top-left-radius: 10px; 
+}
+th:last-child{
+    border-top-right-radius: 10px; 
+}
+tr.EdMaverick{
+    background-color: rgb(157, 203, 255);
+}
+tr.Sabino{
+    background-color: rgb(230, 223, 165);
+}
+tr.KevinKaarl{
+    background-color: rgb(223, 155, 144);
+}
+tr.SantaFeKlan{
+    background-color: rgb(148, 221, 205);
+}
+tr.NanpaBasico{
+    background-color: rgb(191, 132, 214);
+}
