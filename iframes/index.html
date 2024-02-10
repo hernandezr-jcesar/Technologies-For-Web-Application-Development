@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejemplos de iframe </title>
+    <link href="./estilo/principal.css" type="text/css" rel="stylesheet"> 
+</head>
+<body>
+    <h1>El uso de las páginas dentro del HTML</h1>
+<nav>
+    <a href="./paginas/inicio.html"  target="contDinamico">Inicio</a>
+    <a href="./paginas/productos.html" target="contDinamico">Productos</a>
+    <a href="./paginas/ubicacion.html" target="contDinamico">Ubicación</a>
+</nav>
+<iframe width="560" height="315" 
+src="https://www.youtube.com/embed/f_98tK5IsL8" 
+title="YouTube video player" frameborder="0" 
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen></iframe>
+
+<div>
+    <h2>El contenido que cargo de otros recursos HTML</h2>
+    <iframe id="contDinamico" name="contDinamico"
+    src="./paginas/inicio.html">
+    
+    </iframe>
+</div>
+
+</body>
+</html>

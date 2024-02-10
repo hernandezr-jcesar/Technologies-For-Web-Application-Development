@@ -1,0 +1,12 @@
+div{
+    border: 2px solid #1431d3;
+    width: 80%;
+    height: auto;
+}
+h1,h2,h3,h4,h5{
+    color: rgb(22, 55, 200);
+}
+iframe{
+    
+    width: 100%;
+}
