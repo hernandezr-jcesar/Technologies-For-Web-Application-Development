@@ -1,0 +1,136 @@
+div.Autor{ 
+    width: 90%;    
+    margin:0px auto;
+    display: flex;
+    align-items: center;          
+}
+div.InfoAutor{  
+    width: 65%;
+    text-align: justify;
+    margin:0px auto;    
+    padding: 10px;
+}
+div.ImagenAutor{
+    
+    width: 30%;    
+    margin:0px auto;
+    text-align: center;
+}
+img.Autor{
+    width: 100%;
+}
+div.TrasFondo{
+    width: 90%;
+    margin:0px auto;
+}
+div.Personajes{
+    width: 90%;
+    margin:0px auto;    
+}
+img.personaje{
+    width: 100px;
+    height: 120px;
+}
+div.Trama{
+    width: 90%;
+    margin:0px auto;
+}
+div.Media{
+    border-width: 1px;    
+    width: 90%;
+    margin:0px auto;
+    text-align: center;
+}
+img.portada{        
+    width: 350px;
+    height: 400px;
+}
+article.Manwha{
+    width: 90%;
+    background-color: rgb(172, 204, 192);
+    padding: 10px;   
+    margin:0px auto;
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+article.Manga{
+    width: 90%;
+    background-color: rgb(217, 219, 188);
+    padding: 10px;   
+    margin:0px auto;
+    margin-bottom: 25px;
+    border-radius: 10px;
+
+}
+article.LightNovel{
+    width: 90%;
+    background-color: rgb(189, 219, 188);
+    padding: 10px;   
+    margin:0px auto;
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+
+section.Manwha{
+    width: 98%;
+    background-color:rgb(83, 124, 131);
+    padding: 10px;        
+    
+    margin:0px auto;
+    margin-bottom: 25px;
+    border-radius: 20px;
+}
+section.Manga{
+    width: 98%;
+    background-color:rgb(168, 158, 105);
+    padding: 10px;        
+    
+    margin:0px auto;
+    margin-bottom: 25px;
+    border-radius: 20px;
+}
+section.LightNovel{
+    width: 98%;
+    background-color:rgb(105, 168, 139);
+    padding: 10px;        
+    
+    margin:0px auto;
+    margin-bottom: 25px;
+    border-radius: 20px;
+}
+h1{
+    text-align: center;    
+}
+h2{
+    font-size: xx-large;
+}
+h3{
+    text-align: center;
+    font-size:x-large;
+}
+p{
+    text-align: justify;
+    font-size: large;
+}
+.TituloManwha{
+    color:rgb(78, 18, 156);
+    background-color: white;
+    padding: 10px;
+
+    border-radius: 10px;
+    
+}
+.TituloManga{
+    color: rgb(156, 64, 3);
+    background-color: white;
+    padding: 10px;
+    
+    border-radius: 10px;
+}
+.TituloLightNovel{
+    color: rgb(3, 156, 92);
+    background-color: white;
+    padding: 10px;
+    
+    border-radius: 10px;
+}
